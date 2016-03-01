@@ -5,6 +5,10 @@ python:
   - "3.4"
   - "3.5"
 
+cache:
+  apt: true
+  pip: true
+
 install: pip install -r requirements-test.txt
 
 script: tests/run_tests.py
